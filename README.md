@@ -1,9 +1,9 @@
-# Cross-modal Contrastive Global-Span
-
+# Mindspore for Cross-modal Contrastive Global-Span (CCGS)
 
 
 ## Updates
 
+- 2024/3/5 updates Mindspore version codes!
 - 2022/10/12 updates codes 🏆
 
 ## Main Method
