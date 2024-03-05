@@ -1,5 +1,6 @@
-# Mindspore for Cross-modal Contrastive Global-Span (CCGS)
+au# Mindspore for Cross-modal Contrastive Global-Span (CCGS)
 
+This is an implementation of the CCGS code in the MindSpore version. You are free to choose either the MindSpore version or the [PyTorch version](https://github.com/WENGSYX/CCGS)!
 
 ## Updates
 
