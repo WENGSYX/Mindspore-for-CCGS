@@ -15,7 +15,7 @@ This is an implementation of the CCGS code in the MindSpore version. You are fre
 
 ## Prerequisites
 
-- python 3.7 with pytorch (`1.10.0`), transformers(`4.15.0`), tqdm, accelerate, pandas, numpy, glob, sentencepiece
+- python 3.9 with MindSpore(2.2.11), mindformers, tqdm, accelerate, pandas, numpy, glob, sentencepiece
 - cuda10/cuda11
 
 #### Installing the GPU driver
@@ -44,8 +44,8 @@ conda activate CCGS
 
 ```plain
 # preparing environment
-pip install torch==1.10.0+cu113 torchvision==0.11.1+cu113 torchaudio==0.10.0+cu113 -f https://download.pytorch.org/whl/cu113/torch_stable.html
-pip install tqdm transformers sklearn pandas numpy glob accelerate sentencepiece
+pip install https://ms-release.obs.cn-north-4.myhuaweicloud.com/2.2.11/MindSpore/unified/x86_64/mindspore-2.2.11-cp39-cp39-linux_x86_64.whl --trusted-host ms-release.obs.cn-north-4.myhuaweicloud.com -i https://pypi.tuna.tsinghua.edu.cn/simple
+pip install tqdm mindformers sklearn pandas numpy glob accelerate sentencepiece
 ```
 
 ## MedVidCQA
